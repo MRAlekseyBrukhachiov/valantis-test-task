@@ -4,7 +4,7 @@ import { useHttp } from "./useHttp";
 const useAPI = () => {
     const {request, clearError, process, setProcess} = useHttp();
 
-    const _apiBase = 'http://api.valantis.store:40000/';
+    const _apiBase = 'https://api.valantis.store:41000/';
     const _apiKey = 'Valantis';
     const _timestamp = new Date().toISOString().slice(0, 10).split('-').join('');
     const _baseOffset = 0;
