@@ -84,8 +84,8 @@ const ProductList = () => {
             {renderItems(activeFilter === 'none' ? products : filteredProducts)}
             <Pagination style={{
                 position: 'absolute',
-                bottom: 10,
-                left: '47vw'
+                bottom: 0,
+                right: 35
             }}>
                 <Pagination.Prev onClick={prev}/>
                 <Pagination.Item>{(current + 50) / 50}</Pagination.Item>
