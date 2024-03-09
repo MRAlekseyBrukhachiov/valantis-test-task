@@ -1,4 +1,4 @@
-import { useState, useEffect, Suspense } from "react";
+import { useState, useEffect } from "react";
 import useAPI from "../hooks/useAPI";
 import Product from "./Product";
 import { Container } from "react-bootstrap";
